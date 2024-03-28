@@ -1,13 +1,6 @@
 'use client'
  
-import { Metadata } from 'next';
 import { useSearchParams } from 'next/navigation'
-
-export const metadata: Metadata = {
-  title: "List",
-  description: "This is List page shop",
-  keywords: ['shop', 'ecommerce', 'sell',"card"]
-};
  
 export default function SortProducts() {
   const searchParams = useSearchParams()
